@@ -1,11 +1,5 @@
-import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["300"],
-});
 
 export default function HeroSecationI() {
   return (
